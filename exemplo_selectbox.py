@@ -72,3 +72,18 @@ elif genero_selecionado == "Pop" and musica_selecionada == "It Was a Good Day":
     st.markdown("Ice Cube retrata um raro dia de paz em meio à violência urbana de Los Angeles. 'It Was a Good Day' é uma celebração da tranquilidade, onde tudo corre bem e não há necessidade de recorrer à violência — um alívio na rotina tensa da periferia.")
     st.write("A SEGUIR O LINK DA MÚSICA ESCOLHIDA, SE DIVIRTA OUVINDO 🎶😎")
     st.video("https://youtu.be/OFq5nGCoOVc?si=QgRJ1DtdcgEv7rm-")
+
+elif genero_selecionado == "Pagode" and musica_selecionada == "Camisa 10":
+    st.markdown("Camisa 10")
+    st.write("Essa música é uma declaração de amor incondicional. O eu lírico compara conquistas grandiosas, como ser o camisa 10 do Barcelona ou ganhar na Mega-Sena, com a felicidade de estar ao lado da pessoa amada. Mesmo com fama e riqueza, ele escolhe o amor verdadeiro. A letra usa metáforas exageradas para reforçar a lealdade e o valor do sentimento.")
+    st.video("https://www.youtube.com/watch?v=oZgYN4qfpl4")
+
+elif genero_selecionado == "Pagode" and musica_selecionada == "Quem Ama Sente Saudade":
+    st.markdown("Quem Ama Sente Saudade")
+    st.write("Essa canção expressa a dor da saudade e os conflitos de um relacionamento marcado por ciúmes e inseguranças. O eu lírico revela que, apesar de ter perdoado a pessoa amada, ainda sente tristeza e desconfiança. A música destaca como o amor verdadeiro é acompanhado por saudade intensa e preocupação constante.")
+    st.video("https://youtu.be/PQqOSqHZOTc?si=Ftowha2R0ETtfnlx")
+
+elif genero_selecionado == "Pagode" and musica_selecionada == "É Tarde Demais":
+    st.markdown("É Tarde Demais")
+    st.write("A música retrata um relacionamento que não resistiu às pressões externas e à falta de confiança. O eu lírico lamenta que o amor verdadeiro não foi valorizado e que a separação foi causada por interferências de terceiros. Agora, mesmo com arrependimento da outra parte, ele afirma que é tarde demais para voltar atrás.")
+    st.video("https://youtu.be/mZK0m7jMlZA?si=JDLeWD34dMK7ajeU")
