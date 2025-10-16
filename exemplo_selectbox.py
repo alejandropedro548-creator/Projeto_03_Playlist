@@ -7,7 +7,7 @@ genero = ["Forro", "Rap", "Pop", "Pagode"]
 musica_por_genero = {
     "Forro": ["Hoje Dói", "Acaso", "Vou Te Amar"],
     "Rap": ["A Vida é Um Desafio", "Canâo Foi Tâo Bom", "O 5° Vigia"],
-    "Pop": ["God's Plan", "Billie jean", "It Was a Good Day"],
+    "Pop": ["God's Plan", "Billie Jean", "It Was a Good Day"],
     "Pagode": ["Camisa 10", "Quem Ama Sente Saudade", "É Tarde Demais"]
 }
 
@@ -52,22 +52,23 @@ elif genero_selecionado == "Rap" and musica_selecionada == "Canâo Foi Tâo Bom"
     st.markdown("Sabotage transforma memórias do bairro do Canão em uma homenagem à comunidade. A música mistura crítica social com nostalgia, exaltando a força da periferia e a importância da educação e da cultura como formas de resistência.")
     st.write("A SEGUIR O LINK DA MÚSICA ESCOLHIDA, SE DIVIRTA OUVINDO 🎶😎")
     st.video("https://youtu.be/WF7LLl7r4Os?si=NY1rc534Vgfy7SwW")
+
 elif genero_selecionado == "Rap" and musica_selecionada == "O 5° Vigia":
     st.markdown("Narrativa intensa de Ndee Naldinho, 'O 5° Vigia' descreve os bastidores de um assalto a banco. Com influência do gangsta rap, a música se tornou um marco do rap nacional nos anos 2000, destacando a realidade urbana e a tensão constante vivida nas ruas.")
     st.write("A SEGUIR O LINK DA MÚSICA ESCOLHIDA, SE DIVIRTA OUVINDO 🎶😎")
     st.video("https://youtu.be/N8TN4Rj4kb0?si=6IUHc7PDc02Qo9QJ")    
 
-elif genero_selecionado == "pop" and musica_selecionada == "God's Plan":
+elif genero_selecionado == "Pop" and musica_selecionada == "God's Plan":
     st.markdown("Drake celebra a gratidão e a proteção divina em 'God's Plan'. A música mistura trap e pop rap, com uma mensagem positiva sobre superar dificuldades e ajudar os outros, tornando-se um dos maiores sucessos do artista.")
     st.write("A SEGUIR O LINK DA MÚSICA ESCOLHIDA, SE DIVIRTA OUVINDO 🎶😎")
     st.video("https://youtu.be/9TincgwjtmA?si=AKobPrI95HlI-OJd")
 
-elif genero_selecionado == "pop" and musica_selecionada == "Billie Jean":
+elif genero_selecionado == "Pop" and musica_selecionada == "Billie Jean":
     st.markdown("Um dos maiores hits de Michael Jackson, 'Billie Jean' combina funk, R&B e dance-pop. A letra gira em torno de uma acusação de paternidade, enquanto a produção inovadora e o icônico moonwalk marcaram a história da música pop.")
     st.write("A SEGUIR O LINK DA MÚSICA ESCOLHIDA, SE DIVIRTA OUVINDO 🎶😎")
     st.video("https://youtu.be/OZGtRvYF-A4?si=lQ6EILCkrDekTRSX")
 
-elif genero_selecionado == "pop" and musica_selecionada == "It Was a Good Day":
+elif genero_selecionado == "Pop" and musica_selecionada == "It Was a Good Day":
     st.markdown("Ice Cube retrata um raro dia de paz em meio à violência urbana de Los Angeles. 'It Was a Good Day' é uma celebração da tranquilidade, onde tudo corre bem e não há necessidade de recorrer à violência — um alívio na rotina tensa da periferia.")
     st.write("A SEGUIR O LINK DA MÚSICA ESCOLHIDA, SE DIVIRTA OUVINDO 🎶😎")
     st.video("https://youtu.be/OFq5nGCoOVc?si=QgRJ1DtdcgEv7rm-")
